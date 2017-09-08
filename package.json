@@ -1,0 +1,28 @@
+{
+  "name": "cai.js",
+  "version": "1.0.0",
+  "description": "面向对象编程，用来学习的常见设计模式的总结",
+  "main": "index.js",
+  "scripts": {
+    "test": "qunit-cli test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caixiaojia/cai.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "oop",
+    "function-programming"
+  ],
+  "author": "caixiaojia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caixiaojia/cai.js/issues"
+  },
+  "homepage": "https://github.com/caixiaojia/cai.js#readme",
+  "devDependencies": {
+    "qunitjs": "^2.4.0",
+    "qunit-cli": "~0.2.0"
+  }
+}
