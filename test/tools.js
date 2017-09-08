@@ -2,7 +2,7 @@
  * Created by shawntsia on 2017/9/8.
  */
 ;(function(){
-    var $ = typeof require === 'function' ? require('../cai') : cai;
+    var $ = typeof require === 'function' ? require('../src/cai') : cai;
 
     QUnit.module('Tools');
 

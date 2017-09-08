@@ -7,8 +7,6 @@
     // 变量定义
     var cai = {};
 
-
-
     // 内部封装函数
     cai.c = function (dom, selector) {
         this.dom = dom;
@@ -83,3 +81,28 @@
 
 // window.cai = cai;
 // window.$ === undefined && (window.$ = window.cai);
+
+/**
+ * Created by shawntsia on 2017/9/8.
+ * 回调管理，对于deffred的支持
+ */
+(function ($) {
+    /**
+     * 具体的内部实现
+     */
+    $.Callbacks = function (options) {
+    }
+})(cai);
+
+/**
+ * Created by shawntsia on 2017/9/8.
+ * Deffred对于异步管理的实现
+ */
+(function ($) {
+    $.Deffred = function () {
+
+    };
+})(cai);
+/**
+ * Created by shawntsia on 2017/9/8.
+ */
